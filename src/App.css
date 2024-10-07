@@ -1,0 +1,7 @@
+.App {
+  background-color: #000000;
+  color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
