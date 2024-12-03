@@ -4,10 +4,30 @@ import callapp from "../assets/callapp.png";
 import token from "../assets/token.png";
 import trcc from "../assets/trcc new.png";
 import trustflick from "../assets/trustflick.png";
+import Apex from "../assets/Apex cover (2).png";
+import Dudesk from "../assets/dudesks cover.png";
 import { Link } from "react-router-dom";
 
 const Project = () => {
   const projects = [
+    {
+      name: "Apex",
+      about:
+        "apex logitics landing page dedicated to rendering logistics solution with efficency, realiablity, from real time tracking of flexing delivery and a good support commited to ensuring each delivery reaches it destination",
+      pics: Apex,
+      stacks: "javascript, react, tailwind shadcn",
+      path: "https://apex-psi-murex.vercel.com",
+      git: "https://noblez-90z/Apex",
+    },
+    {
+      name: "Dudesk",
+      about:
+        "a school landing page  that  provides a comprehensive platform for management of school fees payment, administrative and communication functions for eductional institutions",
+      pics: Dudesk,
+      stacks: "javascript, react, tailwind shadcn",
+      path: "https://du-desks.vercel.app",
+      git: "https://noblez-90z/DuDesks",
+    },
     {
       name: "Ottomans-Beds",
       about:

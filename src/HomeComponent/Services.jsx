@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   const services = [
     {
-      name: "web design",
+      name: "UI developement",
       icon: <FontAwesomeIcon icon={faCode} />,
       text: "i specialize in building user-entric web designs that enhance website and applications. my service include responsive web design, interactive elements, and performance optimization. with expertise in mordern frameworks and a focus on user experience, i'm dedicated to creating engagin and seamless digital interfaces.",
       btn: "hire me",
